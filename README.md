@@ -6,8 +6,6 @@ Portfólio desenvolvido com **HTML, CSS e JavaScript**, contendo informações p
 
 - Layout organizado em tons pastéis  
 - Navegação entre múltiplas páginas  
-- Tema claro/escuro pastel (JavaScript)  
-- Código válido pelo Markup Validation Service  
 
 ## 📁 Estrutura
 
@@ -15,7 +13,6 @@ Portfólio desenvolvido com **HTML, CSS e JavaScript**, contendo informações p
 - `projetos.html` — Projetos desenvolvidos  
 - `contato.html` — Formas de contato  
 - `style.css` — Estilos visuais  
-- `script.js` — Alternância de tema  
 
 ## 📬 Contato
 
