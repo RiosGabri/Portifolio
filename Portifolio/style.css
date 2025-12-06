@@ -1,0 +1,176 @@
+/* ------ PALETA PASTEL DEFINIDA ------ */
+:root {
+    --bg: #1e1f24;
+    --card: #26272e;
+    --text: #e3e6ed;
+    --muted: #9aa0ad;
+    --accent: #8fb4ff;
+
+    --shadow-dark: #141418;
+    --shadow-light: #2d2e36;
+}
+
+
+/* ------ GLOBAL ------ */
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+/* ------ HEADER (STICKY) ------ */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--card);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 6px 6px 12px var(--shadow-dark),
+                -6px -6px 12px var(--shadow-light);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu a {
+    font-weight: 600;
+}
+
+/* ------ NEUMORPHISM CARDS ------ */
+.neu-card {
+    background: var(--card);
+    padding: 25px 30px;
+    margin: 25px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 6px 6px 12px var(--shadow-dark),
+                -6px -6px 12px var(--shadow-light);
+}
+
+/* ------ FOOTER ------ */
+.neu-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ------ FADE-IN ------ */
+.fade {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.7s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ------ BOTÃO VOLTAR AO TOPO ------ */
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding: 12px 16px;
+    font-size: 20px;
+    border-radius: 12px;
+    background: var(--card);
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    box-shadow: 4px 4px 10px var(--shadow-dark),
+                -4px -4px 10px var(--shadow-light);
+}
+
+/* ------ MODAL DE PROJETOS ------ */
+
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,0.40);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal {
+    background: var(--card);
+    color: var(--text);
+    padding: 25px;
+    width: 420px;
+    border-radius: 18px;
+    box-shadow: 6px 6px 12px var(--shadow-dark),
+                -6px -6px 12px var(--shadow-light);
+}
+
+.modal h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.close-modal {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 
+        6px 6px 12px var(--shadow-dark),
+        -6px -6px 12px var(--shadow-light);
+}
+
+/* Links de contato com destaque suave */
+.contact-link {
+    color: #8ab4f8; /* azul pastel */
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.contact-link:hover {
+    color: #bcd2ff;
+    text-shadow: 0 0 6px rgba(138, 180, 248, 0.5);
+}
+
+header nav {
+    margin-top: 20px;   /* espaço entre o título e o menu */
+    display: flex;
+    gap: 25px;          /* espaço entre os itens */
+}
+

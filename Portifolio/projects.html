@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos — Gabriel Parméra</title>
+    <link REL="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="neu-card fade">
+    <h1>Projetos</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ==============================
+     PROJETO 1 — ADOÇÃO+
+================================= -->
+<section class="neu-card fade">
+    <h2>Adoção+</h2>
+    <p>
+        Plataforma desenvolvida utilizando Python + Flask, permitindo cadastro de animais, 
+        visualização e adoção, com interface web e modo terminal.
+    </p>
+
+    <button class="open-modal"
+            data-title="Adoção+"
+            data-desc="Sistema completo para adoção de animais, com backend em Python, Flask, 
+                       banco de dados SQLite e interface web responsiva. Desenvolvido com foco 
+                       em organização, separação de camadas, boas práticas e acessibilidade.">
+        Ver mais
+    </button>
+</section>
+
+<!-- ==============================
+     PROJETO 2 — MODELO
+================================= -->
+<section class="neu-card fade">
+    <h2>Projeto 1</h2>
+    <p>
+        MedTag é um sistema de controle de estoque de medicamentos que usa Arduino, Python, HTML, JavaScript e sensores RFID para identificar e organizar automaticamente medicamentos.
+    </p>
+
+    <button class="open-modal"
+            data-title="Projeto 1 - MedTag"
+            data-desc="MedTag é um sistema de controle de estoque de medicamentos que integra Arduino, Python, HTML e JavaScript, utilizando sensores RFID para leitura de etiquetas e organização dos itens em uma caixa de MDF. 
+                       O projeto automatiza o registro e a identificação dos medicamentos, tornando o acompanhamento do estoque mais eficiente e reduzindo riscos de erro humano.">
+        Ver mais
+    </button>
+</section>
+
+<footer class="neu-footer fade">
+    <p>© 2025 — Desenvolvido por Gabriel Parméra</p>
+</footer>
+
+<!-- ==============================
+     MODAL (ESTRUTURA GLOBAL)
+================================= -->
+<div class="modal-bg" id="modal-bg">
+    <div class="modal">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <button class="close-modal" id="close-modal">Fechar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
