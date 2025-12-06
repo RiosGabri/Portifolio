@@ -57,13 +57,13 @@ Criar um portfólio profissional, elegante e responsivo, que centralize:
 
 ## 🧩 **Funcionalidades**
 
--   ✔️ Cabeçalho fixo responsivo\
--   ✔️ Design Neumórfico com tema dark pastel\
--   ✔️ Foto com efeito circular (shadow + depth)\
--   ✔️ Modal de visualização de projetos\
--   ✔️ Botão de "voltar ao topo"\
--   ✔️ Layout semântico e limpo\
--   ✔️ Links de contato funcionais\
+-   ✔️ Cabeçalho fixo responsivo
+-   ✔️ Design Neumórfico com tema dark pastel
+-   ✔️ Foto com efeito circular (shadow + depth)
+-   ✔️ Modal de visualização de projetos
+-   ✔️ Botão de "voltar ao topo"
+-   ✔️ Layout semântico e limpo
+-   ✔️ Links de contato funcionais
 -   ✔️ Página exclusiva para currículo (em breve)
 
 ------------------------------------------------------------------------
