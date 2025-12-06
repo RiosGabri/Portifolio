@@ -72,26 +72,26 @@ Criar um portfólio profissional, elegante e responsivo, que centralize:
 
 ### 🔹 **Início (`index.html`)**
 
--   Foto do desenvolvedor\
--   Objetivo profissional\
--   Habilidades técnicas e ferramentas\
+-   Foto do desenvolvedor
+-   Objetivo profissional
+-   Habilidades técnicas e ferramentas
 -   Experiência / Formação
 
 ### 🔹 **Projetos (`projects.html`)**
 
--   Cards de projetos\
+-   Cards de projetos
 -   Modal para detalhes
 
 ### 🔹 **Contato (`contact.html`)**
 
--   Email\
--   LinkedIn\
--   GitHub\
+-   Email
+-   LinkedIn
+-   GitHub
 -   Links destacados visualmente
 
 ### 🔹 **Currículo (`curriculo.html`)**
 
--   Página pronta\
+-   Página pronta
 -   Conteúdo atual: **"Em breve"**
 
 ------------------------------------------------------------------------
@@ -119,13 +119,11 @@ Criar um portfólio profissional, elegante e responsivo, que centralize:
 # 🌐 Portfolio --- Gabriel Parméra
 
 Welcome to my personal portfolio!\
-This project was created to showcase my work, technical skills, academic
-background, and the projects I am developing. The goal is to provide a
-**clean**, **well-structured**, **functional**, and modern interface
-using **Neumorphism + Dark Pastel** aesthetics.
-
-The entire website was built using **pure HTML, CSS and JavaScript**,
-demonstrating mastery of essential web development fundamentals.
+This project was developed to present my work for Erick's Introduction to Computing course, 
+my technical skills, my academic progress, and my projects in
+development. The focus of this portfolio is to be **simple**, **well-structured**, **functional**, and have a modern design using
+**Neumorphism + Dark Pastel**. It was built entirely with pure **HTML, CSS, and JavaScript**, without
+external frameworks.
 
 ------------------------------------------------------------------------
 
@@ -134,10 +132,10 @@ demonstrating mastery of essential web development fundamentals.
 Create a professional, elegant, and responsive portfolio that
 centralizes:
 
--   My journey\
--   My projects\
--   My technical skills\
--   My contact information\
+-   My journey
+-   My projects
+-   My technical skills
+-   My contact information
 -   My résumé (coming soon)
 
 This portfolio also serves as a foundation for continuous improvement
@@ -180,13 +178,13 @@ and future expansions.
 
 ## 🧩 **Features**
 
--   ✔️ Responsive sticky header\
--   ✔️ Dark pastel Neumorphism design\
--   ✔️ Profile photo with circular depth effect\
--   ✔️ Projects displayed in a modal\
--   ✔️ Scroll-to-top button\
--   ✔️ Semantic and clean layout\
--   ✔️ Fully functional contact links\
+-   ✔️ Responsive sticky header
+-   ✔️ Dark pastel Neumorphism design
+-   ✔️ Profile photo with circular depth effect
+-   ✔️ Projects displayed in a modal
+-   ✔️ Scroll-to-top button
+-   ✔️ Semantic and clean layout
+-   ✔️ Fully functional contact links
 -   ✔️ Dedicated résumé page (coming soon)
 
 ------------------------------------------------------------------------
@@ -195,42 +193,42 @@ and future expansions.
 
 ### 🔹 **Home (`index.html`)**
 
--   Profile photo\
--   Professional objective\
--   Technical skills\
+-   Profile photo
+-   Professional objective
+-   Technical skills
 -   Education & Experience
 
 ### 🔹 **Projects (`projects.html`)**
 
--   Project cards\
+-   Project cards
 -   Modal view for details
 
 ### 🔹 **Contact (`contact.html`)**
 
--   Email\
--   LinkedIn\
--   GitHub\
+-   Email
+-   LinkedIn
+-   GitHub
 -   Highlighted links
 
 ### 🔹 **Resume (`curriculo.html`)**
 
--   Layout ready\
+-   Layout ready
 -   Current content: **"Coming soon"**
 
 ------------------------------------------------------------------------
 
 ## 💡 Future Improvements
 
--   [ ] Add downloadable PDF résumé\
+-   [ ] Add downloadable PDF résumé
 -   [ ] Smooth UI animations\
--   [ ] Add certifications section\
--   [ ] Create integrated tech blog\
+-   [ ] Add certifications section
+-   [ ] Create integrated tech blog
 -   [ ] Implement dark/light mode switch
 
 ------------------------------------------------------------------------
 
 ## 📬 **Contact**
 
--   **Email:** grp@cesar.school\
--   **LinkedIn:** https://linkedin.com/in/gabrielrios\
+-   **Email:** grp@cesar.school
+-   **LinkedIn:** https://linkedin.com/in/gabrielrios
 -   **GitHub:** https://github.com/RiosGabri
